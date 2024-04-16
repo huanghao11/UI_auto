@@ -1,0 +1,13 @@
+#imageContainer {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    margin: 1px auto; /* Centering the container */
+    border: 1px solid black; /* Just for visibility */
+}
+
+#imageCanvas {
+    display: block; /* removes extra space below the canvas */
+    max-width: 100%; /* Responsive canvas size */
+    height: auto; /* maintain aspect ratio */
+    background-color: #f0f0f0; /* a light background color */
+}
